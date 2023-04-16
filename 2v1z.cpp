@@ -34,7 +34,7 @@ void output(biblcard *books, int n)
         cout << books[n].city << endl;
         cout << books[n].publisher << endl;
         cout << books[n].pages << endl;
-        cout << "-----------------------------------" << coutx2 << coutx2 << coutx2 << coutx2;
+        cout << "-----------------------------------" << coutx2;
     }
 }
 
