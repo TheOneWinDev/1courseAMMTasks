@@ -6,6 +6,11 @@ using namespace std;
 int main()
 {
     fstream in("Data.txt");
+    if (in.is_open())
+    {
+        cout << "Error while open File";
+        return -1;
+    }
     char symbol;
     int counters[26] = {};
     while (in.get(symbol))
